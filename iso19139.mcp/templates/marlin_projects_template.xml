@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema.xsd http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.opengis.net/gml/gml.xsd" gco:isoType="gmd:MD_Metadata">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>Marlin_Projects_Fragments_Harvester_Test_Template</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+  	<gmd:LanguageCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#MD_LanguageCode" codeListValue="eng"></gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel id="hierarchyLevel"/>
+	<gmd:contact gco:nilReason="missing"/>
+  <gmd:dateStamp id="datestamp"/>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>MCP:BlueNet V1.5</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <mcp:CI_Citation id="citation" gco:isoType="gmd:CI_Citation">
+					<gmd:title>
+						<gco:CharacterString>Deegree22 WFS Fragments Marlin Projects Template</gco:CharacterString>
+					</gmd:title>
+				</mcp:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract id="abstract"/>
+			<gmd:descriptiveKeywords id="keywords"/>
+			<gmd:aggregateInformation id="aggregateInformation"/>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="tempextent"/>
+      </gmd:extent>
+    </mcp:MD_DataIdentification>
+  </gmd:identificationInfo>
+	<mcp:revisionDate id="revisiondate"/>
+  <mcp:metadataContactInfo id="metadatacontactinfo"/>
+</mcp:MD_Metadata>

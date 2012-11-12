@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp:MD_Metadata xmlns:mcp="http://bluenet3.antcrc.utas.edu.au/mcp" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:geonet="http://www.fao.org/geonetwork" xsi:schemaLocation="http://bluenet3.antcrc.utas.edu.au/mcp http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/schema.xsd http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd http://www.opengis.net/gml http://www.opengis.net/gml/gml.xsd" gco:isoType="gmd:MD_Metadata">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>Marlin_Fragments_Harvester_Template_For_Surveys</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+  	<gmd:LanguageCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#MD_LanguageCode" codeListValue="eng"></gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode"/>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="survey"/>
+  </gmd:hierarchyLevel>
+  <gmd:dateStamp id="dateStamp"/>
+	<gmd:metadataStandardName>
+		<gco:CharacterString>Australian Marine Community Profile of ISO 19115:2005/19139</gco:CharacterString>
+	</gmd:metadataStandardName>
+	<gmd:metadataStandardVersion>
+		<gco:CharacterString>MCP:BlueNet V1.5</gco:CharacterString>
+	</gmd:metadataStandardVersion>
+  <gmd:identificationInfo>
+    <mcp:MD_DataIdentification gco:isoType="gmd:MD_DataIdentification">
+      <gmd:citation>
+        <mcp:CI_Citation id="citation" gco:isoType="gmd:CI_Citation">
+					<gmd:title>
+						<gco:CharacterString>Deegree22 WFS Fragments Marlin Surveys Template</gco:CharacterString>
+					</gmd:title>
+				</mcp:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract id="abstract"/>
+			<gmd:descriptiveKeywords id="keywords"/>
+			<gmd:aggregateInformation id="aggregateInformation"/>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent id="boundingbox"/>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent id="tempextent"/>
+      </gmd:extent>
+			<gmd:supplementalInformation id="additionalMetadata"/>
+      <mcp:resourceContactInfo id="contactinfo"/>
+    </mcp:MD_DataIdentification>
+  </gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine id="onlineResource"/>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<mcp:revisionDate gco:nilReason="missing"/>
+  <mcp:metadataContactInfo>
+		<mcp:responsibleParty>
+			<mcp:CI_Responsibility>
+				<mcp:role>
+					<gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+				</mcp:role>
+				<mcp:role>
+					<gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+				</mcp:role>
+				<mcp:role>
+					<gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner"/>
+				</mcp:role>
+				<mcp:role>
+					<gmd:CI_RoleCode codeList="http://bluenet3.antcrc.utas.edu.au/mcp-1.5-experimental/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="author"/>
+				</mcp:role>
+				<mcp:party>
+					<mcp:CI_Organisation>
+						<mcp:name xlink:href="http://localhost:8080/geonetwork/srv/en/xml.metadata.get?uuid=urn:marine.csiro.au:org:1_organisation_name"/>
+						<mcp:contactInfo xlink:href="http://localhost:8080/geonetwork/srv/en/xml.metadata.get?uuid=urn:marine.csiro.au:org:1_contact_info_mailing_address"/>
+						<mcp:contactInfo xlink:href="http://localhost:8080/geonetwork/srv/en/xml.metadata.get?uuid=urn:marine.csiro.au:org:1_contact_info_street_address"/>
+					</mcp:CI_Organisation>
+				</mcp:party>
+			</mcp:CI_Responsibility>
+    </mcp:responsibleParty>
+  </mcp:metadataContactInfo>
+</mcp:MD_Metadata>
